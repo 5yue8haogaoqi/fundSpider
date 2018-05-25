@@ -167,7 +167,7 @@ class Parameters(object):
         return [('bd', ''), ('ed', '')]
 
 if __name__ == '__main__':
-    fundL,intersection = select_in_topN(type_zhaiquan, 100)
+    fundL,intersection = select_in_topN(type_gupiao, 50)
     print (intersection)
     # p = Parameters(type_zhaiquan)
     # for params,ind in p:
